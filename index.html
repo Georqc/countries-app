@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <h1>Search for a country</h1>
+        <form id="searchForm">
+          <input type="text" id="inputEl" />
+          <button id="submit-Btn" type="submit">Search</button>
+        </form>
+      </div>
+
+      <div id="error"></div>
+
+      <div class="results-container hidden">
+        <h2 id="country"></h2>
+        <p>Capital: <span id="capital"></span></p>
+        <p>Population: <span id="population"></span></p>
+        <p>Region: <span id="region"></span></p>
+        <p>Temperature: <span id="temperature"></span></p>
+        <p id="flag">Flag: <img alt="country flag" id="flagPic" /></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
